@@ -9,3 +9,16 @@ In this assignment you will be implementing your own decision trees.
       - The autograder will automatically run your jupyter notebook to generate the predictions in a file called "submission.csv" and the autograder script will compute a score automatically. So you are not required to upload the submissions file but rather the code to generate the submissions file.
       - In order to pass this assignment, you need to reach a **Score of at least 80%** in autograder. This will be computed based on the Root Mean Square Error w.r.t to the test data.
       - A skeleton of a possible implementation in Python for an example dataset is made available in [this notebook](Decision_tree.ipynb).
+
+* Dataset:
+ - The dataset is taken from an ongoing [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+ - Optionally feel free to submit to the Kaggle competition
+ - The dataset is for housing price prediction. Dataset description is found [here](data/data_description.txt)
+ -- The goal is predict the price of a house given its attributes
+ -- So it is a regression problem
+ -- Therefore your decision tree should be able to predict a value (housing price) rather than a class
+ -- Use appropriate splitting criterion and error function
+ - The performance is evaluated using RMSE (Root Mean Square Error) using this formula $\sqrt{\frac{y-yi}{n}}$
+ - Training data set is [here]()
+ - Test data is [here]()
+ - 
