@@ -11,6 +11,7 @@ In this assignment you will be implementing your own decision trees.
       - The autograder will automatically run your jupyter notebook ([this notebook](Decision_tree.ipynb)) to generate the predictions in a file called "submission.csv" and the autograder script will compute a score automatically. So you are not required to upload the submissions file but rather the code to generate the submissions file.
       - In order to pass this assignment, you need to reach a **Score of at least 70%** in autograder. This will be computed based on the Root Mean Square Error w.r.t to the test data.
       - A skeleton of a possible implementation in Python for an example dataset is made available in [this notebook](Decision_tree.ipynb).
+      - Deadline for the assignment is 25.02.2019 by 23.59 CET.
 
 * Dataset:
   - The dataset is taken from an ongoing [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
