@@ -19,7 +19,10 @@ In this assignment you will be implementing your own decision trees.
     - So it is a regression problem
     - Therefore your decision tree should be able to predict a value (housing price) rather than a class
     - Use appropriate splitting criterion and error function
+    - The dataset has a lot of missing values denoted as NaN you may replace them with appropriate categorical value like None or mean/mode approrpiately.
+    - You may also apply dimensionality reduction like PCA before training.
     - At the leaf node you may use the average value as the predicted value or if there are many instances you may use additional classifiers like linear regression.
+    
   - The performance is evaluated using RMSE [Root Mean Square Error](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
   - Training data set is [here]()
   - Test data is [here]()
