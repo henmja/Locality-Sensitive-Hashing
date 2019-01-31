@@ -14,10 +14,10 @@ In this assignment you will be implementing your own decision trees.
   - The dataset is taken from an ongoing [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
   - Optionally feel free to submit to the Kaggle competition
   - The dataset is for housing price prediction. Dataset description is found [here](data/data_description.txt)
-   -- The goal is predict the price of a house given its attributes
-   -- So it is a regression problem
-   -- Therefore your decision tree should be able to predict a value (housing price) rather than a class
-   -- Use appropriate splitting criterion and error function
+   - The goal is predict the price of a house given its attributes
+   - So it is a regression problem
+   - Therefore your decision tree should be able to predict a value (housing price) rather than a class
+   - Use appropriate splitting criterion and error function
   - The performance is evaluated using RMSE [Root Mean Square Error](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
   - Training data set is [here]()
   - Test data is [here]()
